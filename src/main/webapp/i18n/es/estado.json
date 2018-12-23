@@ -1,0 +1,9 @@
+{
+    "jhipsterapptruequeoApp": {
+        "Estado": {
+            "null": "",
+            "OFERTA": "OFERTA",
+            "CONCRETADO": "CONCRETADO"
+        }
+    }
+}
