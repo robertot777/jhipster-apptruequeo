@@ -1,0 +1,11 @@
+version: '2'
+services:
+    jhipsterapptruequeo-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/jhipsterapptruequeo/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=jhipsterapptruequeo
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
